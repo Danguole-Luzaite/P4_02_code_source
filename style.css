@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -28,7 +27,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -40,7 +38,7 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
+    padding-left: 10px;
     padding-right: 0;
 }
 
@@ -326,6 +324,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 40px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -1043,4 +1042,7 @@ h4 {
 .citation-width{
     width: 100%;
     object-fit: scale-down;
+}
+.form-group{
+    padding-bottom: 15px;
 }
