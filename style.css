@@ -36,7 +36,19 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+.header-page2{
+    margin: auto;
+}
+.header-page2 .row{
+    text-align: center;
+}
+.nav_page2{
+    list-style: none;
+}
+.nav_page2 li a{
+    text-decoration: none;
+    font-size: 20px;
+}
 .bloc .container {
     padding-left: 10px;
     padding-right: 0;
@@ -740,6 +752,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1045,4 +1058,28 @@ h4 {
 }
 .form-group{
     padding-bottom: 15px;
+}
+.formulaire .form-group{
+    padding-bottom: 23px;
+}
+.formulaire .form-group label{
+    display: block;
+}
+.formulaire .form-group input{
+    width: 100%;
+    max-width: 550px;
+    height: 36px;
+}
+.formulaire .form-group textarea{
+    max-width: 550px;
+    width: 100%;
+}
+.contact-footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px 0px;
+}
+.contact-footer p{
+    color: #ffff !important;
+    font-size: 16px;
 }
